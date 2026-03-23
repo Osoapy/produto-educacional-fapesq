@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'OpenSans', sans-serif;
   color: black;
+  font-weight: 400;
 }
 
 @font-face {
@@ -19,4 +20,20 @@
 @font-face {
   font-family: 'Perandory';
   src: url('./assets/fonts/PerandoryRegular.woff2') format('woff2');
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+// SCROLLBAR
+::-webkit-scrollbar {
+  width: 10 px;
+}::-webkit-scrollbar-track {
+  background: rgb(63, 19, 2);
+}::-webkit-scrollbar-thumb {
+  background: #a4371d;
+  border-radius: 10px;
+}::-webkit-scrollbar-thumb:hover {
+  background: #bd4122;
 }
