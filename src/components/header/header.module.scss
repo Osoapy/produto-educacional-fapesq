@@ -1,16 +1,23 @@
-.header {
-    $paddinNGap: 3.5%;
+$MarginNGap: 3.5%;
+
+.header, .landing-page-header {
+    background-clip: content-box;
     position: absolute;
     display: flex;
     justify-content: flex-end;
-    gap: $paddinNGap;
-    padding-right: $paddinNGap;
+    gap: $MarginNGap;
     align-items: center;
     background-color: rgba($color: #a4371d, $alpha: 0.13);
     text-decoration: none;
     width: 100%;
+    top: 0px;
+    left: 0px;
     height: 8.5vh;
     z-index: 2;
+
+    :last-child {
+      margin-right: $MarginNGap;
+    }
 
     .header-link {
         display: flex;
@@ -24,4 +31,8 @@
             text-decoration: underline;
         }
     }
+}
+
+.header { 
+    background-image: url("../../assets/neuronBackground.webp");
 }

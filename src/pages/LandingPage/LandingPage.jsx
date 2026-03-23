@@ -11,7 +11,7 @@ import Header from "../../components/header/Header";
 const LandingPage = () => {
     return (
         <>
-            <Header />
+            <Header isItLandingPage={true} />
             <section className={styles["introduction-section"]}> {/* seção de introdução */}
                 <img className={styles["background-image"]} src={backgroundImage} alt="Fundo de neurônio" />
                 <div className={styles["title-and-subtitle"]}>

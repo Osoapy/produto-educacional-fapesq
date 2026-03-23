@@ -9,29 +9,73 @@ const InformationPage = () => {
                 <h1 className={styles.title}>FUNDAMENTOS</h1>
 
                 <div className={styles.container}>
-                {/* Sidebar */}
-                <aside className={styles.sidebar}>
-                    <h2>CONTEÚDO</h2>
-                    <ul>
-                    <li className={styles.active}>TÓPICO 1</li>
-                    <li>TÓPICO 2</li>
-                    <li>TÓPICO 3</li>
-                    </ul>
-                </aside>
+                    {/* Sidebar */}
+                    <aside className={styles.sidebar}>
+                        <h2>CONTEÚDO</h2>
+                        <ul>
+                        <li className={styles.active}>TÓPICO 1</li>
+                        <li>TÓPICO 2</li>
+                        <li>TÓPICO 3</li>
+                        </ul>
+                    </aside>
 
-                {/* Content */}
-                <section className={styles.content}>
-                    {[1, 2, 3].map((item) => (
-                    <div key={item} className={styles.block}>
-                        <h2>Título 1</h2>
-                        <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s...
-                        </p>
-                    </div>
-                    ))}
-                </section>
+                    {/* Content */}
+                    <section className={styles.content}>
+                        <div className={styles.block}>
+                            <h2>Título 1</h2>
+                            <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            </p>
+                        </div>
+                        <div className={styles.block}>
+                            <h2>Título 2</h2>
+                            <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            </p>
+                        </div>
+                        <div className={styles.block}>
+                            <h2>Título 3</h2>
+                            <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's
+                            standard dummy text ever since the 1500s...
+                            </p>
+                        </div>
+                    </section>
                 </div>
             </main>
         </>

@@ -1,8 +1,10 @@
 import styles from "./header.module.scss";
 
-const Header = () => {
+const Header = ({isItLandingPage}) => {
+    const headerClass = isItLandingPage? styles["landing-page-header"] : styles.header
+
     return (
-        <header className={styles.header}>
+        <header className={headerClass}>
             <a href="/" className={styles['header-link']}>Neuralize</a>
             <a href="/fundamentos" className={styles['header-link']}>Fundamentos</a>
             <a href="/mecanismos-de-pesquisa" className={styles['header-link']}>Mecanismos de pesquisa</a>
