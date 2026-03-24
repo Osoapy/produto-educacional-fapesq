@@ -27,14 +27,14 @@ const LandingPage = () => {
                 <img className={styles["background-image"]} src={backgroundImage} alt="Fundo de neurônio" />
                 <div className={styles["left-card-container-wrapper"]}>
                     <div className={styles["left-card-container"]}>
-                        <h1 className={styles["card-title"]}>pongpongpong pongpong pong</h1>
-                        <p className={styles["card-subtitle"]}>pingpingping ping ping</p>
+                        <h1 className={styles["card-title"]}>O que eu aprendi sobre Redes Neurais</h1>
+                        <p className={styles["card-subtitle"]}>na universidade de Mondragon</p>
                     </div>
                 </div>
                 <div className={styles["right-card-container-wrapper"]}>
                     <div className={styles["right-card-container"]}>
                         <img src={neuralNetworkImage} alt="Diagrama de Rede Neural" />
-                        <p className={styles["description"]}>blablablab albalbaablablba lblablablaba lbalbaablablbalblablablabalbal baablablbalblablablabal balbaabl ablbal</p>
+                        <p className={styles["description"]}>Esse site tem como objetivo ensinar um pouco sobre Redes Neurais Artificiais, como me foi explicado no período de intercâmbio na Espanha, passando dos conceitos mais simples aos mais avançados!</p>
                     </div>
                 </div>
             </section>
@@ -51,7 +51,7 @@ const LandingPage = () => {
                         </div>
                         <div className={styles["item-name-and-description"]}>
                             <h2 className={styles["item-name"]}>Mondragon</h2>
-                            <p className={styles["description"]}>O papel dos pais no tratamento pediátrico O papel dos pais no tratamento pediátrico </p>
+                            <p className={styles["description"]}>Por ter me recebido de braços abertos e me prover um conhecimento único sobre uma cultura completamente diferente.</p>
                         </div>
                     </div>
                     <div className={styles["thank-list"]}>
@@ -60,7 +60,7 @@ const LandingPage = () => {
                         </div>
                         <div className={styles["item-name-and-description"]}>
                             <h2 className={styles["item-name"]}>PBSF</h2>
-                            <p className={styles["description"]}>O papel dos pais no tratamento pediátrico O papel dos pais no tratamento pediátrico </p>
+                            <p className={styles["description"]}>Por prezar pela formação profissional de pesquisadores no estado da Paraíba e desempenhar sua função com excelência!</p>
                         </div>
                     </div>
                     <div className={styles["thank-list"]}>
@@ -69,7 +69,7 @@ const LandingPage = () => {
                         </div>
                         <div className={styles["item-name-and-description"]}>
                             <h2 className={styles["item-name"]}>FAPESQ</h2>
-                            <p className={styles["description"]}>O papel dos pais no tratamento pediátrico O papel dos pais no tratamento pediátrico </p>
+                            <p className={styles["description"]}>Por me reconhecer como alguém apto a representar o estado da Paraíba e estar presente em cada pequeno processo desde a aprovação até à volta para o Brasil</p>
                         </div>
                     </div>
                 </div>
