@@ -70,6 +70,16 @@
         scroll-margin-top: 120px;
     }
 
+    ul {
+        padding-left: 10%;
+
+        li {
+            max-width: 90%;
+            color: black;
+            line-height: 1.6;
+        }
+    }
+
     p {
         max-width: 90%;
         color: black;

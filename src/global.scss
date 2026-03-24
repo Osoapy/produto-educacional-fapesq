@@ -7,6 +7,10 @@
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'DMSans';
   src: url('./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
