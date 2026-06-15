@@ -5,6 +5,7 @@ import backgroundImage from "../../assets/neuronBackground.webp";
 import mondragonLogo from "../../assets/mondragonLogo.png";
 import fapesqLogo from "../../assets/fapesqWhiteLogo.png";
 import pbsfLogo from "../../assets/pbsfLogo.png";
+import sectiesLogo from "../../assets/secties.png";
 import styles from "./landingPage.module.scss";
 import Header from "../../components/header/Header";
 
@@ -70,6 +71,15 @@ const LandingPage = () => {
                         <div className={styles["item-name-and-description"]}>
                             <h2 className={styles["item-name"]}>FAPESQ</h2>
                             <p className={styles["description"]}>Por me reconhecer como alguém apto a representar o estado da Paraíba e estar presente em cada pequeno processo desde a aprovação até à volta para o Brasil</p>
+                        </div>
+                    </div>
+                    <div className={styles["thank-list"]}>
+                        <div className={styles["thanklist-img-wrapper"]}>
+                            <img className={styles["thanklist-item"]} src={sectiesLogo} alt="Logo da SECTIES" />
+                        </div>
+                        <div className={styles["item-name-and-description"]}>
+                            <h2 className={styles["item-name"]}>SECTIES</h2>
+                            <p className={styles["description"]}>Por apoiar a pesquisa e o desenvolvimento tecnológico no estado da Paraíba e contribuir para a excelência acadêmica.</p>
                         </div>
                     </div>
                 </div>
